@@ -1,0 +1,61 @@
+*{
+ margin:0; 
+ padding:0;
+}
+
+body
+{
+  background: #66001f;  
+}
+
+header
+{
+  overflow:hidden;
+  margin-bottom: 20px;
+  background:green;
+  width:100%;
+
+}
+header .titulo
+{
+  color:white;
+  font-size:50px;
+  line-height:100px;
+  font-family:Papyrus;fantasy
+}
+header nav a
+{
+  color:white;
+  padding:10px 30px;
+  line-height:normal;
+  display:inline-block;
+  text-decoration:none;
+  font-size:20px;
+  border-radius:5px;
+}
+header nav a:hover
+{
+  background-color: yellow;
+  -webkit-transition:all 500ms ;
+  -o-transition:all 500ms ;
+}
+.todo
+{
+  width:90%;
+  max-width:1000px;
+  margin:auto;
+  overflow:hidden;
+  color:white;
+}
+.lista{
+  width:90%;
+  max-width:1000px;
+  margin:auto;
+  overflow:hidden;
+  color:green;
+  font-size:200%;
+   
+}
+.img{
+  width:380px;
+}
